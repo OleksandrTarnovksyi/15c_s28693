@@ -1,1 +1,2 @@
-squares = [number * number for number in range(1,11)]
+def e_squares(start, end):
+    return [number * number for number in range(start, end)]
