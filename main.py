@@ -1,2 +1,3 @@
-def e_squares(start, end):
-    return [number * number for number in range(start, end)]
+class SquareGenerator:
+    def e_squares(self, start, end):
+        return [number * number for number in range(start, end)]
