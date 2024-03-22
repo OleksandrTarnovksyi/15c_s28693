@@ -1,6 +1,4 @@
 import math
-
-
 class SquareGenerator:
     def e_squares(self, start, end):
         if start > end:
