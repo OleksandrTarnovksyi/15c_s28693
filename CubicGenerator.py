@@ -8,5 +8,7 @@ class CubicGenerator(SquareGenerator):
         if start > end:
             print("Invalid")
         else:
-            squares = [number * number*number for number in range(start, end)]
-            return [math.sqrt(square    ) for square in squares]
+            squares = [number * number * number for number in range(start, end)]
+            return [math.sqrt(square) for square in squares]
+
+
